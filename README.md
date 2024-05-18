@@ -13,7 +13,7 @@
    
     (a) Clone the repository:
    
-        git clone (https://github.com/adarsh072k/Lens-Corporation)
+        git clone https://github.com/adarsh072k/Lens-Corporation
    
     (b) Install dependencies:
    
