@@ -32,11 +32,11 @@ export default function Blogs() {
         </p>
 
         <div className="w-[70%] grid grid-cols-2 gap-x-6 gap-y-10">
-          <div className="flex relative hover:scale-105 transition-transform duration-300">
+          <div className="flex relative transition-transform duration-300 group">
             <div className="w-[150px] h-[100px] flex-shrink-0 rounded-[255px] bg-[#fbc976] blur-[70px] absolute right-[-70px] bottom-[-100px]"></div>
-            <div className="rounded-2xl border border-transparent bg-white p-5 overflow-hidden">
+            <div className="rounded-2xl border border-transparent bg-white p-5 overflow-hidden group-hover:bg-[rgb(255,248,237)]">
               <div className="flex h-[90%] flex-col gap-[10px] items-start justify-between transition duration-300">
-                <div>
+                <div className="transition-transform duration-300 group-hover:-translate-y-12">
                   <span
                     className="text-2xl font-medium leading-snug"
                     style={{
@@ -54,20 +54,20 @@ export default function Blogs() {
                   </h2>
                 </div>
                 <div
-                  className="rounded-lg flex p-6 justify-center items-center flex-shrink-0"
+                  className="rounded-lg flex p-6 justify-center items-center flex-shrink-0 transition-transform duration-300 group-hover:-translate-y-10"
                   style={{ backgroundColor: "rgb(255, 246, 205)" }}
                 >
                   <p className="text-gray-500 text-base leading-relaxed">
                     From personalized recommendations to frictionless checkout,
-                    AI is transforming the way you shop.Discover the future of
+                    AI is transforming the way you shop. Discover the future of
                     retail and how AI is making shopping faster, easier, and
                     more enjoyable....
                   </p>
                 </div>
               </div>
-              <div className="opacity-0 mt-2 transition-opacity duration-500">
+              <div className="opacity-0 mt-2 transition-opacity duration-500 group-hover:opacity-100">
                 <a href="/blogs/How AI is Revolutionizing Your Shopping Experience">
-                  <button class="text-[#ff5d5b] bg-transparent border-none text-lg flex items-center gap-1 p-0 relative top-0 transition-all duration-500 ease-in-out">
+                  <button className="text-[#ff5d5b] bg-transparent border-none text-lg flex items-center gap-1 p-0 relative top-0 transition-all duration-500 ease-in-out hover:text-black hover:-translate-y-2">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -93,10 +93,10 @@ export default function Blogs() {
             </div>
           </div>
 
-          <div className="flex relative hover:scale-105 transition-transform duration-300 ">
+          <div className="flex relative transition-transform duration-300 group">
             <div className="w-[150px] h-[100px] flex-shrink-0 blur-[100px] absolute rounded-[199px] bg-[#00b2fc] -top-[50px] -right-[90px]"></div>
-            <div className="rounded-2xl border border-transparent bg-white p-5 overflow-hidden">
-              <div className="flex h-[90%] flex-col gap-[10px] items-start justify-between transition duration-300">
+            <div className="rounded-2xl border border-transparent bg-white p-5 overflow-hidden group-hover:bg-[rgb(241,250,255)]">
+              <div className="flex h-[90%] flex-col gap-[10px] items-start justify-between transition duration-300 group-hover:-translate-y-14">
                 <div>
                   <span
                     className="text-2xl font-medium leading-snug"
@@ -108,7 +108,7 @@ export default function Blogs() {
                     May 8, 2024
                   </span>
                   <h2
-                    className="text-black text-2xl font-medium leading-9 tracking-wide"
+                    className="text-black text-2xl font-medium leading-10 tracking-wide"
                     style={{ fontFamily: "Raleway, sans-serif" }}
                   >
                     Generative AI
@@ -126,9 +126,9 @@ export default function Blogs() {
                   </p>
                 </div>
               </div>
-              <div className="opacity-0 mt-2 transition-opacity duration-500">
+              <div className="opacity-0 mt-2 transition-opacity duration-500 group-hover:opacity-100">
                 <a href="/blogs/Generative AI">
-                  <button className="text-[#ff5d5b] bg-transparent border-none text-lg flex items-center gap-1 p-0 relative top-0 transition-all duration-500 ease-in-out">
+                  <button className="text-[#ff5d5b] bg-transparent border-none text-lg flex items-center gap-1 p-0 relative top-0 transition-all duration-500 ease-in-out hover:text-black hover:-translate-y-2">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -156,11 +156,11 @@ export default function Blogs() {
 
           <div className="grid-cols-2 col-span-2 row-span-2">
             <div
-              className="absolute bottom-[-10px] left-[-10px] w-[150px] h-[100px] flex-shrink-0 " 
+              className="absolute bottom-[-10px] left-[-10px] w-[150px] h-[100px] flex-shrink-0 "
               style={{ borderRadius: "19px" }}
             ></div>
-            <div className="rounded-2xl border border-transparent bg-white p-5 overflow-hidden hover:scale-105 transition-transform duration-300">
-              <div className="flex h-[90%] flex-col gap-[10px] items-start justify-between transition duration-300">
+            <div className="rounded-2xl border border-transparent bg-white p-5 overflow-hidden group group-hover:bg-[rgb(251,221,220)]">
+              <div className="flex h-[90%] flex-col gap-[10px] items-start justify-between transition duration-300 group-hover:-translate-y-14">
                 <div>
                   <span
                     className="text-2xl font-medium leading-snug"
@@ -191,9 +191,9 @@ export default function Blogs() {
                   </p>
                 </div>
               </div>
-              <div className="opacity-0 mt-2 transition-opacity duration-500">
+              <div className="opacity-0 mt-2 transition-opacity duration-500 group-hover:opacity-100">
                 <a href="/blogs/The Evolution of AI in Games">
-                  <button class="text-[#ff5d5b] bg-transparent border-none text-lg flex items-center gap-1 p-0 relative top-0 transition-all duration-500 ease-in-out">
+                  <button class="text-[#ff5d5b] bg-transparent border-none text-lg flex items-center gap-1 p-0 relative top-0 transition-all duration-500 ease-in-out hover:text-black hover:-translate-y-2">
                     Read More
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

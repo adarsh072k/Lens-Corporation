@@ -34,19 +34,19 @@ export default function Services() {
           <div className="grid grid-cols-2 gap-5">
             <div className="relative flex items-center justify-center">
               <div className="h-[200px] flex-shrink-0 absolute pointer-events-none w-[250px] rounded-[172px] bg-[#01c99b] blur-[170px] -top-10 -left-10"></div>
-              <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-[10px] transition duration-300 hover:bg-transparent hover:border-2 hover:border-[#01c99b]">
+              <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-[10px] transition duration-300 hover:bg-transparent hover:border-2 hover:border-[#01c99b] group">
                 <div>
                   <div className="flex flex-row items-start">
                     <div>
                       <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
                         0
                       </span>
-                      <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
+                      <span className="text-[#707070] group-hover:text-[#01c99b] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px] group-hover:opacity-100">
                         1
                       </span>
                     </div>
                     <div
-                      className="text-4xl font-medium transform -translate-x-5 translate-y-10 transition duration-300"
+                      className="text-3xl font-medium transform -translate-x-5 translate-y-10 transition duration-300 hover:text-gray-500 group-hover:translate-x-2"
                       style={{
                         border: "none",
                         color: "rgb(1, 201, 155)",
@@ -74,19 +74,19 @@ export default function Services() {
 
             <div className="flex items-center justify-center relative">
               <div className="w-[299px] h-[200px] rounded-full bg-blue-500 blur-[190px] absolute top-[-50px] right-[-90px] pointer-events-none"></div>
-              <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-lg transition duration-300 hover:bg-transparent hover:border-2  hover:border-blue-500">
+              <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-lg transition duration-300 hover:bg-transparent hover:border-2  hover:border-blue-500 group">
                 <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-[10px]  transition duration-300"> 
                   <div className="flex flex-row items-start">
                     <div>
                       <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
                         0
                       </span>
-                      <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
+                      <span className="text-[#707070] group-hover:text-blue-400 text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px] group-hover:opacity-100">
                         2
                       </span>
                     </div>
                     <div
-                      className="text-4xl font-medium transform -translate-x-5 translate-y-10 transition duration-300"
+                      className="text-3xl font-medium transform -translate-x-5 translate-y-10 transition duration-300 hover:text-gray-500 group-hover:translate-x-2"
                       style={{
                         color: "rgb(63, 189, 241)",
                         fontFamily: "Poppins, sans-serif",
@@ -112,19 +112,19 @@ export default function Services() {
               style={{ position: "relative" }}
             >
               <div className="h-[200px] flex-shrink-0 absolute bottom-[-100px] pointer-events-none w-[291px] rounded-full bg-red-500 filter blur-[180px] left-[-80px]"></div>
-              <div className="rounded-lg relative w-[470px] h-[360px] overflow-hidden bg-white transition duration-300 hover:bg-transparent hover:border-2 hover:border-red-500">
+              <div className="rounded-lg relative w-[470px] h-[360px] overflow-hidden bg-white transition duration-300 hover:bg-transparent hover:border-2 hover:border-red-500 group">
                 <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-[10px] transition duration-300">
                   <div className="flex flex-row items-start">
                     <div>
                       <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
                         0
                       </span>
-                      <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
+                      <span className="text-[#707070] group-hover:text-red-400 text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px] group-hover:opacity-100">
                         3
                       </span>
                     </div>
                     <div
-                      className="text-red-500 text-4xl font-medium transform -translate-x-5 translate-y-10 transition duration-300"
+                      className="text-red-500 text-3xl font-medium transform -translate-x-5 translate-y-10 transition duration-300 hover:text-gray-500 group-hover:translate-x-3"
                       style={{
                         border: "none",
                         color: "rgb(255, 96, 95)",
@@ -154,22 +154,22 @@ export default function Services() {
               style={{ position: "relative" }}
             >
               <div
-                className="w-[350px] h-[200px] flex-shrink-0 absolute bottom-[-100px] pointer-events-none filter blur-[170px] rounded-full bg-yellow-300"
+                className="w-[350px] h-[200px] flex-shrink-0 absolute bottom-[-100px] pointer-events-none filter blur-[170px] rounded-full bg-orange-500"
                 style={{ right: "-70px" }}
               ></div>
               <div className="rounded-lg relative w-[470px] h-[360px] overflow-hidden bg-white transition duration-300 ">
-                <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-[10px] transition duration-300 hover:bg-transparent hover:border-2 hover:border-yellow-300">
+                <div className="relative w-[470px] h-[360px] overflow-hidden bg-white rounded-[10px] transition duration-300 hover:bg-transparent hover:border-2 hover:border-orange-500 group">
                   <div className="flex flex-row items-start">
                     <div>
                       <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
                         0
                       </span>
-                      <span className="text-[#707070] text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px]">
+                      <span className="text-[#707070] group-hover:text-orange-400 text-[88px] font-semibold leading-[123.2px] opacity-20 transition duration-300 first:ml-[40px] group-hover:opacity-100">
                         4
                       </span>
                     </div>
                     <div
-                      className="text-orange-500 text-4xl font-medium transform -translate-x-5 translate-y-10 transition duration-300"
+                      className="text-orange-500 text-3xl font-medium transform -translate-x-5 translate-y-10 transition duration-300 hover:text-gray-500 group-hover:translate-x-2"
                       style={{
                         border: "none",
                         color: "rgb(255, 159, 49)",

@@ -37,7 +37,7 @@ export default function Vision() {
         <div className="grid grid-cols-1 justify-center h-auto mt-6" style={{ fontFamily: "Poppins, sans-serif" }}>
           <div>
             <div className="grid grid-cols-2 gap-x-6 w-[100%] items-center">
-              <div className="w-[60%] ml-56">
+              <div className="w-[60%] ml-56 hover:scale-105 transition duration-300">
                 <h3 className="text-black font-medium text-[28px] transition duration-300 ">
                   Diversity &amp; Fairness
                 </h3>
@@ -102,7 +102,7 @@ export default function Vision() {
                 {/* <span class="absolute block w-0 h-[85%] border-l-2 border-dashed border-gray-500 transform translate-x-7.5 -translate-y-3"></span> */}
               </div>
               <div className="ml-16 w-[80%] mt-[50px] ">
-                <div className=" ml-20 mb-32">
+                <div className=" ml-20 mb-32 hover:scale-105 transition duration-300">
                   <h3 className="text-black font-medium text-[28px] transition duration-300">
                     Regulatory Compliance
                   </h3>
@@ -138,7 +138,7 @@ export default function Vision() {
                 {/* <span class="absolute block w-0 h-[25%] border-l-2 border-dashed border-gray-500 transform translate-x-[275px] -translate-y-3"></span> */}
               </div>
 
-              <div className="w-[360px] ml-56">
+              <div className="w-[360px] ml-56 hover:scale-105 transition duration-300">
                 <h3 className="text-black font-medium text-[28px] transition duration-300">
                   Code of Ethics
                 </h3>
